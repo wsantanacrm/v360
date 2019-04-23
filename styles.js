@@ -212,7 +212,7 @@ module.exports = "/*!\n * Bootstrap v4.1.3 (https://getbootstrap.com/)\n * Copyr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n"
+module.exports = "body, html {\n  background-color: #fff;\n  height: calc(100%);\n  overflow: hidden; }\n\n.shadow {\n  border: 1px solid #ddd; }\n\n.fac-bounce {\n  display: inline-block;\n  position: relative;\n  -webkit-animation: bounce 4s infinite linear;\n          animation: bounce 4s infinite linear; }\n\n@-webkit-keyframes bounce {\n  0% {\n    top: 0; }\n  4% {\n    top: -0.1em; }\n  8% {\n    top: -0.15em; }\n  12% {\n    top: 0; }\n  14% {\n    top: -0.1em; }\n  18% {\n    top: -0.15em; }\n  20% {\n    top: 0; }\n  100% {\n    top: 0; } }\n\n@keyframes bounce {\n  0% {\n    top: 0; }\n  4% {\n    top: -0.1em; }\n  8% {\n    top: -0.15em; }\n  12% {\n    top: 0; }\n  14% {\n    top: -0.1em; }\n  18% {\n    top: -0.15em; }\n  20% {\n    top: 0; }\n  100% {\n    top: 0; } }\n\n.ui-overlaypanel {\n  z-index: 9999 !important;\n  top: 0vh !important;\n  left: 0vw !important;\n  width: 100% !important;\n  height: 100% !important;\n  background: #eceeef;\n  padding: 0 !important; }\n\n.ui-overlaypanel-content {\n  padding: 0; }\n\n.ui-overlaypanel-content .table {\n  background: transparent; }\n\n.ui-overlaypanel h3 {\n  opacity: .5; }\n\n.ui-overlaypanel .desc {\n  padding: 10px;\n  display: block;\n  margin-bottom: 10px;\n  height: 27vh; }\n\n.ui-overlaypanel .valor {\n  display: block;\n  text-align: right; }\n"
 
 /***/ }),
 
@@ -744,12 +744,12 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\angular\suzano-tele\node_modules\bootstrap\scss\bootstrap.scss */"./node_modules/bootstrap/scss/bootstrap.scss");
-__webpack_require__(/*! E:\angular\suzano-tele\node_modules\font-awesome\css\font-awesome.min.css */"./node_modules/font-awesome/css/font-awesome.min.css");
-__webpack_require__(/*! E:\angular\suzano-tele\node_modules\primeng\resources\primeng.min.css */"./node_modules/primeng/resources/primeng.min.css");
-__webpack_require__(/*! E:\angular\suzano-tele\node_modules\primeng\resources\themes\omega\theme.css */"./node_modules/primeng/resources/themes/omega/theme.css");
-__webpack_require__(/*! E:\angular\suzano-tele\node_modules\primeicons\primeicons.css */"./node_modules/primeicons/primeicons.css");
-module.exports = __webpack_require__(/*! E:\angular\suzano-tele\src\styles.scss */"./src/styles.scss");
+__webpack_require__(/*! E:\angular\tele-2\node_modules\bootstrap\scss\bootstrap.scss */"./node_modules/bootstrap/scss/bootstrap.scss");
+__webpack_require__(/*! E:\angular\tele-2\node_modules\font-awesome\css\font-awesome.min.css */"./node_modules/font-awesome/css/font-awesome.min.css");
+__webpack_require__(/*! E:\angular\tele-2\node_modules\primeng\resources\primeng.min.css */"./node_modules/primeng/resources/primeng.min.css");
+__webpack_require__(/*! E:\angular\tele-2\node_modules\primeng\resources\themes\omega\theme.css */"./node_modules/primeng/resources/themes/omega/theme.css");
+__webpack_require__(/*! E:\angular\tele-2\node_modules\primeicons\primeicons.css */"./node_modules/primeicons/primeicons.css");
+module.exports = __webpack_require__(/*! E:\angular\tele-2\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })

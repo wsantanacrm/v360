@@ -210,7 +210,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"client \">\n\n    <!-- <div class=\"title\">\n      <i class=\"fa fa-building\" aria-hidden=\"true\"></i> {{clients.selected.name}}\n    </div> -->\n\n    <div class=\"data\">\n        <div class=\"col shadow\">\n            <span class=\"cap\">RAZÃO:</span>{{clients.selected.razao}}\n          </div>\n        <div class=\"col shadow\">\n          <span class=\"cap\">CNPJ:</span>{{clients.selected.cnpj}}\n        </div>\n    </div>\n\n    <div class=\"data\">\n      <div class=\"col shadow\">\n          <span class=\"cap\">Email:</span>{{clients.selected.email}}\n      </div>\n      <div class=\"col shadow\">\n          <span class=\"cap\">FONE:</span>{{clients.selected.fone}}\n      </div>\n    </div>\n\n    <div class=\"data\">\n        <div class=\"col shadow\">\n            <span class=\"cap\">Logradouro:</span>{{clients.selected.logradouro}}\n        </div>\n      </div>\n<!--     \n    <span class=\"detail\" >Detalhes\n      <i class=\"fa fa-chevron-circle-right\"></i>\n    </span> -->\n</div>\n\n\n<div class=\"line\">\n\n  \n  <app-minigraph *ngFor=\"let item of graphs\" [item]=\"item\">\n    \n  </app-minigraph>\n  \n</div>\n"
+module.exports = "<div class=\"client\">\n\n    <!-- <div class=\"title\">\n      <i class=\"fa fa-building\" aria-hidden=\"true\"></i> {{clients.selected.name}}\n    </div> -->\n    <div class=\"data\">\n      <div class=\"col shadow coorp\">\n          <span class=\"cap\">  © 2019 Copyright:\n            <a href=\"https://www.partners.srv.br/\"> PARTNERS CONSULTING</a></span>\n      </div>\n    </div>\n\n    <div class=\"data\">\n        <div class=\"col shadow\">\n            <span class=\"cap\">RAZÃO:</span>{{clients.selected.razao}}\n          </div>\n        <div class=\"col shadow\">\n          <span class=\"cap\">CNPJ:</span>{{clients.selected.cnpj}}\n        </div>\n    </div>\n\n    <div class=\"data\">\n      <div class=\"col shadow\">\n          <span class=\"cap\">Email:</span>{{clients.selected.email}}\n      </div>\n      <div class=\"col shadow\">\n          <span class=\"cap\">FONE:</span>{{clients.selected.fone}}\n      </div>\n    </div>\n\n    <div class=\"data\">\n        <div class=\"col shadow\">\n            <span class=\"cap\">Logradouro:</span>{{clients.selected.logradouro}}\n        </div>\n      </div>\n<!--     \n    <span class=\"detail\" >Detalhes\n      <i class=\"fa fa-chevron-circle-right\"></i>\n    </span> -->\n</div>\n\n\n<div class=\"line\">\n\n  \n  <app-minigraph *ngFor=\"let item of graphs\" [item]=\"item\">\n    \n  </app-minigraph>\n  \n</div>\n<div class=\"container\">\n\n</div>\n<div class=\"data\">\n  <div class=\"col shadow coorp\">\n      <span class=\"cap\">  © 2019 Copyright:\n        <a href=\"https://www.partners.srv.br/\"> Partners.srv.br</a></span>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -221,7 +221,7 @@ module.exports = "<div class=\"client \">\n\n    <!-- <div class=\"title\">\n   
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".client {\n  color: rgba(0, 0, 0, 0.6); }\n\n.client .title {\n  background: #fff;\n  padding: 0px;\n  text-align: center;\n  font-size: 1.6em;\n  font-weight: 600; }\n\n.client .data {\n  font-size: .7em;\n  display: flex; }\n\n.client .data .col {\n  padding: 2px 5px;\n  background: #f6f7f9;\n  margin-bottom: 4px;\n  margin-left: 4px; }\n\n.client .data .col:first-child {\n  margin-left: 0px; }\n\n.client .data .col .cap {\n  font-weight: 600;\n  display: block; }\n\n.client .detail {\n  cursor: pointer;\n  color: #666;\n  background: rgba(255, 255, 255, 0.5);\n  display: block;\n  text-align: center;\n  padding: 5px;\n  margin-top: 4px;\n  font-size: .9em; }\n\n.client .detail:hover {\n  background: white;\n  font-weight: 600; }\n\n.line {\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: wrap;\n  padding-bottom: 5px; }\n\napp-minigraph {\n  flex-grow: 1;\n  width: 30%;\n  margin: 5px 0px 0px;\n  border: 1px solid #eeeeee; }\n\napp-minigraph:nth-child(3n + 2) {\n  margin: 5px 5px 0; }\n\n.teste {\n  background: #BF4D28;\n  color: #fff; }\n"
+module.exports = ".client {\n  color: rgba(0, 0, 0, 0.6); }\n\n.client .title {\n  background: #fff;\n  padding: 0px;\n  text-align: center;\n  font-size: 1.6em;\n  font-weight: 600; }\n\n.client .data {\n  font-size: .7em;\n  display: flex; }\n\n.client .data .col {\n  padding: 2px 5px;\n  background: #f6f7f9;\n  margin-bottom: 4px;\n  margin-left: 4px; }\n\n.client .data .col:first-child {\n  margin-left: 0px; }\n\n.client .data .col .cap {\n  font-weight: 600;\n  display: block; }\n\n.client .detail {\n  cursor: pointer;\n  color: #666;\n  background: rgba(255, 255, 255, 0.5);\n  display: block;\n  text-align: center;\n  padding: 5px;\n  margin-top: 4px;\n  font-size: .9em; }\n\n.client .detail:hover {\n  background: white;\n  font-weight: 600; }\n\n.line {\n  display: flex;\n  justify-content: space-between;\n  flex-wrap: wrap;\n  padding-bottom: 5px; }\n\napp-minigraph {\n  flex-grow: 1;\n  width: 30%;\n  margin: 5px 0px 0px;\n  border: 1px solid #eeeeee; }\n\napp-minigraph:nth-child(3n + 2) {\n  margin: 5px 5px 0; }\n\n.teste {\n  background: #BF4D28;\n  color: #fff; }\n\n.col.shadow.coorp {\n  text-align: center; }\n"
 
 /***/ }),
 
@@ -296,13 +296,13 @@ var ClientDetailComponent = /** @class */ (function () {
                 color: ""
             },
             {
-                title: "Mercantil",
+                title: "Crédito Total",
                 icon: "fa-credit-card",
                 value: clients.selected.info.mercantil,
                 color: ""
             },
             {
-                title: "Facilidades",
+                title: "Crédito Disponível",
                 icon: "fa-globe",
                 value: clients.selected.info.facilidades,
                 color: ""
@@ -314,7 +314,7 @@ var ClientDetailComponent = /** @class */ (function () {
                 color: ""
             },
             {
-                title: "Ligações Suzano",
+                title: "Ligações Arcelor",
                 icon: "fa-phone",
                 value: clients.selected.info.ligacoes,
                 color: ""
@@ -360,7 +360,7 @@ var ClientDetailComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<input type=\"text\" [(ngModel)]=\"search\" class=\"form-control\" placeholder=\"\" (click)=\"unselect()\">\n\n<table class=\"table table-sm table-materials\" [class.collapse]=\"selected\">\n  <!--\n  <thead>\n      <tr>\n      <th scope=\"col\">matnr</th>\n      <th [hidden]=\"selected\" scope=\"col\">maktx</th>\n      <th [hidden]=\"selected\" scope=\"col\">maktg</th>\n    </tr>\n  </thead>\n\n    <tbody >\n    <tr   (click)=\"op.toggle($event)\" [class.bg-primary]=\"selected == item\" *ngFor=\"let item of getFilter()\">\n      <th scope=\"row\">{{item.matnr}}</th>\n      <td>{{item.maktx}}</td>\n      <td>{{item.maktg}}</td>\n    </tr>\n  </tbody>\n</table>\n-->\n\n  <tbody >\n    <tr   (click)=\"op.toggle($event)\"  [class.bg-primary]=\"selected == item\" *ngFor=\"let item of getFilter()\">\n      <th scope=\"row\">{{item.matnr}}</th>\n      <td>{{item.maktx}}</td>\n      <td>{{item.maktg}}</td>\n    </tr>\n  </tbody>\n</table>\n\n<p-overlayPanel #op [dismissable]=\"true\" [showCloseIcon]=\"true\" >\n    <table class=\"table table-sm table-selected\">\n        <thead>\n          <tr>\n            <th scope=\"col\">maktx</th>\n            <th scope=\"col\">maktg</th>\n            <th scope=\"col\">Quantidade</th>\n            <th scope=\"col\">Centro</th>\n            <th></th>\n          </tr>\n        </thead>\n        <tbody *ngFor=\"let item of materiais2\">\n          <tr>\n            <!-- <th scope=\"row\">{{item.matnr}}</th> -->\n            <td>{{item.maktx}}</td>\n            <td>{{item.maktg}}</td>\n            <td>{{item.qnt}}</td>\n            <td>{{item.centro}}</td>\n            <td><button type=\"button\" class=\"btn btn-primary btn-sm btn-buy\"><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i></button></td>\n          </tr>\n        </tbody>\n      </table>\n</p-overlayPanel>\n\n\n"
+module.exports = "<input type=\"text\" [(ngModel)]=\"search\" class=\"form-control\" placeholder=\"\" (click)=\"unselect()\">\n\n<table class=\"table table-sm table-materials\" [class.collapse]=\"selected\">\n  <!--\n  <thead>\n      <tr>\n      <th scope=\"col\">matnr</th>\n      <th [hidden]=\"selected\" scope=\"col\">maktx</th>\n      <th [hidden]=\"selected\" scope=\"col\">maktg</th>\n    </tr>\n  </thead>\n-->\n  <tbody >\n    <tr   (click)=\"op.toggle($event)\" [class.bg-primary]=\"selected == item\" *ngFor=\"let item of getFilter()\">\n      <th scope=\"row\">{{item.matnr}}</th>\n      <td>{{item.maktx}}</td>\n      <td>{{item.maktg}}</td>\n    </tr>\n  </tbody>\n</table>\n\n<p-overlayPanel #op [dismissable]=\"true\" [showCloseIcon]=\"true\" >\n    <table class=\"table table-sm table-selected\">\n        <thead>\n          <tr>\n            <th scope=\"col\">maktx</th>\n            <th scope=\"col\">maktg</th>\n            <th scope=\"col\">Quantidade</th>\n            <th scope=\"col\">Centro</th>\n            <th></th>\n          </tr>\n        </thead>\n        <tbody *ngFor=\"let item of materiais2\">\n          <tr>\n            <!-- <th scope=\"row\">{{item.matnr}}</th> -->\n            <td>{{item.maktx}}</td>\n            <td>{{item.maktg}}</td>\n            <td>{{item.qnt}}</td>\n            <td>{{item.centro}}</td>\n            <td><button type=\"button\" class=\"btn btn-primary btn-sm btn-buy\"><i class=\"fa fa-shopping-cart\" aria-hidden=\"true\"></i></button></td>\n          </tr>\n        </tbody>\n      </table>\n</p-overlayPanel>\n\n\n"
 
 /***/ }),
 
@@ -371,7 +371,7 @@ module.exports = "<input type=\"text\" [(ngModel)]=\"search\" class=\"form-contr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".table th,\n.table td {\n  font-size: .8em; }\n\n.table-materials {\n  margin-top: 0px;\n  height: 20vh;\n  overflow: scroll;\n  display: block;\n  float: left; }\n\ntr.bg-primary {\n  color: #fff; }\n\n.table-selected {\n  margin-top: 0px;\n  height: 0%;\n  overflow-y: scroll;\n  overflow-x: hidden;\n  display: block;\n  padding: 0 10px; }\n\n.btn-buy {\n  padding: 1px 8px; }\n"
+module.exports = ".table th,\n.table td {\n  font-size: .8em; }\n\n.table-materials {\n  margin-top: 5px;\n  height: 20vh;\n  overflow-y: scroll;\n  overflow-x: none;\n  display: block;\n  float: left; }\n\ntr.bg-primary {\n  color: #fff; }\n\n.table-selected {\n  margin-top: 5px;\n  height: 100%;\n  overflow-y: scroll;\n  overflow-x: hidden;\n  display: block;\n  padding: 0 10px; }\n\n.btn-buy {\n  padding: 1px 8px; }\n"
 
 /***/ }),
 
@@ -400,28 +400,24 @@ var MateriaisComponent = /** @class */ (function () {
     function MateriaisComponent() {
         this.search = "";
         this.materiais2 = [
-            { matnr: '90000121', maktx: 'CIBT170 BRL BR 0760X1120 LD F 125 VT', maktg: 'COUCHE IMAGE BRILHO LD (VCP)', qnt: "100", centro: "1004" },
-            { matnr: '90000158', maktx: 'CIBT115 BRL BR 0640X0880 CO F 250 VT', maktg: 'COUCHE IMAGE BRILHO COML (VCP)', qnt: "90", centro: "1052" },
-            { matnr: '90000164', maktx: 'CIFT115 FCO BR 0640X0880 LD F 250 VT', maktg: 'COUCHE IMAGE FOSCO LD (VCP)', qnt: "12", centro: "1101" },
-            { matnr: '90000633', maktx: 'CIFT230 FCO BR 0640X0880 LD F 125 AH', maktg: 'COUCHE IMAGE FOSCO LD (AHLSTRON)', qnt: "85", centro: "1004" },
-            { matnr: '90002074', maktx: 'CNBT090 BRL BR 0660X0960 LD F 500 ST', maktg: 'NEO COUCHE BRILHO LD (SPP-NEMO)', qnt: "15", centro: "1004" },
-            { matnr: '90002093', maktx: 'CNFT090 FCO BR 0640X0880 LD F 500 ST', maktg: 'NEO COUCHE FOSCO LD SPP (SPP-NEMO)', qnt: "45", centro: "1004" },
+            { matnr: '90000158', maktx: '901770 (Emb. contém 1un. ) ', maktg: 'Contra filé', qnt: "90", centro: "1052" },
+            { matnr: '90000164', maktx: '914190 (Emb. contém 1un. ) ', maktg: 'Picanha ', qnt: "12", centro: "1101" },
+            { matnr: '90000633', maktx: '900108 (Emb. contém 1un. ) ', maktg: 'Colunas', qnt: "85", centro: "1004" },
+            { matnr: '90002074', maktx: '900083 (Emb. contém 1un. ) ', maktg: 'Cupim (O2)     ', qnt: "15", centro: "1004" },
+            { matnr: '90002093', maktx: '900107 (Emb. contém 1un. ) ', maktg: 'Filé Mignon    ', qnt: "45", centro: "1004" },
         ];
         this.materiais = [
-            { matnr: '90000121', maktx: 'CIBT170 BRL BR 0760X1120 LD F 125 VT', maktg: 'COUCHE IMAGE BRILHO LD (VCP)' },
-            { matnr: '90000158', maktx: 'CIBT115 BRL BR 0640X0880 CO F 250 VT', maktg: 'COUCHE IMAGE BRILHO COML (VCP)' },
-            { matnr: '90000164', maktx: 'CIFT115 FCO BR 0640X0880 LD F 250 VT', maktg: 'COUCHE IMAGE FOSCO LD (VCP)' },
-            { matnr: '90000633', maktx: 'CIFT230 FCO BR 0640X0880 LD F 125 AH', maktg: 'COUCHE IMAGE FOSCO LD (AHLSTRON)' },
-            { matnr: '90000591', maktx: 'CL1T105 BRL BR 0660X0960 CO F 250 AH', maktg: 'COUCHE LMX L1 COML (AHLSTRON)' },
-            { matnr: '90000592', maktx: 'CL1T105 BRL BR 0760X1120 CO F 250 AH', maktg: 'COUCHE LMX L1 COML (AHLSTRON)' },
-            { matnr: '90000096', maktx: 'CLXT150 FCO BR 0640X0880 LD F 250 VT', maktg: 'COUCHE LMX MATTE LD (VCP)' },
-            { matnr: '90001983', maktx: 'CMST150 BRL BR 0660X0960 LD F 250 SP', maktg: 'COUCHE MAGNOSTAR LD(BRILHO) (SAPPI)' },
-            { matnr: '90001984', maktx: 'CMST170 BRL BR 0660X0960 LD F 125 SP', maktg: 'COUCHE MAGNOSTAR LD (BRILHO) (SAPPI)' },
-            { matnr: '90002073', maktx: 'PAPEL NEO COUCHE BRILHO LD (SPPNEMO)', maktg: 'NEO COUCHE BRILHO LD (SPP-NEMO)' },
-            { matnr: '90002074', maktx: 'CNBT090 BRL BR 0660X0960 LD F 500 ST', maktg: 'NEO COUCHE BRILHO LD (SPP-NEMO)' },
-            { matnr: '90002093', maktx: 'CNFT090 FCO BR 0640X0880 LD F 500 ST', maktg: 'NEO COUCHE FOSCO LD SPP (SPP-NEMO)' },
-            { matnr: '90002094', maktx: 'CNFT090 FCO BR 0660X0960 LD F 500 ST', maktg: 'NEO COUCHE FOSCO LD (SPP-NEMO)' },
-            { matnr: '90000107', maktx: 'CSTT115 BRL BR 0660X0960 LD F 250 VT', maktg: 'COUCHE STARMAX LD (VCP)' },
+            { matnr: '00000000', maktx: '----------------------------------------------------', maktg: '--------------------------------------------------------------', qnt: "---", centro: "----" },
+            { matnr: '90000158', maktx: '901770 (Emb. contém 1un. ) ', maktg: 'Contra filé', qnt: "90", centro: "1052" },
+            { matnr: '90000164', maktx: '914190 (Emb. contém 1un. ) ', maktg: 'Picanha ', qnt: "12", centro: "1101" },
+            { matnr: '90000633', maktx: '900108 (Emb. contém 1un. ) ', maktg: 'Colunas', qnt: "85", centro: "1004" },
+            { matnr: '90002074', maktx: '900083 (Emb. contém 1un. ) ', maktg: 'Cupim (O2)     ', qnt: "15", centro: "1004" },
+            { matnr: '90002093', maktx: '900107 (Emb. contém 1un. ) ', maktg: 'Filé Mignon    ', qnt: "45", centro: "1004" },
+            { matnr: '90000158', maktx: '901770 (Emb. contém 1un. ) ', maktg: 'Costelinha', qnt: "90", centro: "1052" },
+            { matnr: '90000164', maktx: '914190 (Emb. contém 1un. ) ', maktg: 'Costela Janelão ', qnt: "12", centro: "1101" },
+            { matnr: '90000633', maktx: '900108 (Emb. contém 1un. ) ', maktg: 'Colunas', qnt: "85", centro: "1004" },
+            { matnr: '90002074', maktx: '900083 (Emb. contém 1un. ) ', maktg: 'Dramix® ', qnt: "15", centro: "1004" },
+            { matnr: '90002093', maktx: '900107 (Emb. contém 1un. ) ', maktg: 'Estribos', qnt: "45", centro: "1004" },
             { matnr: '20058075', maktx: 'REP7020 C C WH 0827X1169 RF 00500 10 056', maktg: 'PAPEL SUZANO REPORT PREMIUM' },
             { matnr: '20057472', maktx: 'RHC2075 C C RO 0210X0297 RM 00500 05 096', maktg: 'PAPEL REPORT MULTIUSO COLORIDO' },
             { matnr: '20057473', maktx: 'RHC2075 C C AZ 0210X0297 RM 00500 05 096', maktg: 'PAPEL REPORT MULTIUSO COLORIDO' },
@@ -772,7 +768,7 @@ var PesquisaComponent = /** @class */ (function () {
                 ]
             },
             {
-                question: "Você indicaria a Suzano para os seus amigos?",
+                question: "Você indicaria a Arcelor para os seus amigos?",
                 type: "yesno",
                 answer: null,
                 answers: [
@@ -872,7 +868,7 @@ var PesquisaComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ul class=\"wizard\">\n  <li (click)=\"selectAba(0)\" [class.selected]=\"clients.aba == 0\">VISÃO 360º</li>\n  <li (click)=\"selectAba(1)\" [class.selected]=\"clients.aba == 1\">CAMPANHAS E PESQUISAS</li>\n  <li><a href=\"https://citio.gdm-wine.usdemo.hybris.com/yacceleratorstorefront/citio/en/?asm=true\" target=\"_blank\">VENDA ASSISTIDA</a></li>\n</ul>"
+module.exports = "<ul class=\"wizard\">\n  <li (click)=\"selectAba(0)\" [class.selected]=\"clients.aba == 0\">VISÃO 360º</li>\n  <li (click)=\"selectAba(1)\" [class.selected]=\"clients.aba == 1\">CAMPANHAS E PESQUISAS</li>\n  <li><a href=\"https://citio.gdm-luna.usdemo.hybris.com/yacceleratorstorefront/?asm=true\" target=\"_blank\">VENDA ASSISTIDA</a></li>\n</ul>\n"
 
 /***/ }),
 
@@ -1041,7 +1037,7 @@ var CanalComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p-chart type=\"line\" height=\"80px\"  [data]=\"data\" [options]=\"options\"></p-chart>"
+module.exports = "<p-chart type=\"line\" height=\"75%\"  [data]=\"data\" [options]=\"options\"></p-chart>"
 
 /***/ }),
 
@@ -1080,16 +1076,16 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var ComparativoComponent = /** @class */ (function () {
     function ComparativoComponent() {
         this.data = {
-            labels: ['Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
+            labels: ['Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez', 'Jan'],
             datasets: [
                 {
-                    label: '2016',
+                    label: '2018',
                     data: [5000, 6000, 1200, 8000, 3000, 4000, 2000],
                     fill: false,
                     borderColor: '#355C7D'
                 },
                 {
-                    label: '2017',
+                    label: '2019',
                     data: [3000, 4000, 9000, 7000, 6000, 3000, 9000],
                     fill: false,
                     borderColor: '#00AAFF'
@@ -1174,7 +1170,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var FaturamentoComponent = /** @class */ (function () {
     function FaturamentoComponent() {
         this.data = {
-            labels: ['Cut-Size', 'Grafico'],
+            labels: ['Bovino', 'Ovinos'],
             datasets: [
                 {
                     data: [100, 10],
@@ -1266,7 +1262,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var RecomendacaoComponent = /** @class */ (function () {
     function RecomendacaoComponent() {
         this.data = {
-            labels: ['Premium', 'Reciclato', 'Colorido'],
+            labels: ['Bovinos', 'Ovinos', 'Pescados'],
             datasets: [
                 {
                     data: [0, 0, 0, 0, 0],
@@ -1501,7 +1497,7 @@ var Client = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-wrapper\" >\n  <div class=\"container-fluid\">\n    <div class=\"sidebar panel\">\n      \n      <span class=\"title\">\n        <i class=\"fa fa-check-square\" aria-hidden=\"true\"></i> PESQUISA\n      </span>\n      \n      <comp-pesquisa></comp-pesquisa>\n    </div>\n    <div class=\"main-content\">\n      <div class=\"row row-30\">\n        <div class=\"col-8 panel shadow\">\n          <span class=\"title\">\n            <i class=\"fa fa-check-square\" aria-hidden=\"true\"></i> OFERTAS ATIVAS\n          </span>\n          <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\">\n            <div class=\"carousel-inner\">\n              <div class=\"carousel-item active\">\n                <img class=\"d-block w-100\" src=\"https://sheldonchaves.github.io/televendas-suzano-dist/assets/banner1.jpg\" alt=\"First slide\">\n              </div>\n              <div class=\"carousel-item\">\n                <img class=\"d-block w-100\" src=\"https://sheldonchaves.github.io/televendas-suzano-dist/assets/banner2.jpg\" alt=\"First slide\">\n              </div>\n              <div class=\"carousel-item\">\n                <img class=\"d-block w-100\" src=\"https://sheldonchaves.github.io/televendas-suzano-dist/assets/banner3.jpg\" alt=\"First slide\">\n              </div>\n            </div>\n            <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>\n            <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>\n          </div>\n        </div>\n        \n        <div class=\"col-4 panel shadow \">\n          <span class=\"title\">\n            <i class=\"fa fa-bullhorn\" aria-hidden=\"true\"></i> RECOMENDAÇÃO\n          </span>\n          \n          <grafico-recomendacao [dados]=\"clients.selected.graficoRecomendacao\"></grafico-recomendacao>\n          \n          \n        </div>\n        \n        \n      </div>\n      <div class=\"row row-35\">\n        <div class=\"col panel shadow\">\n          <span class=\"title\">\n            <i class=\"fa fa-th-large\" aria-hidden=\"true\"></i> DEMAND SHAPING\n          </span>\n\n          <comp-materiais></comp-materiais>\n        </div>\n      </div>\n      <div class=\"row row-30\">\n        <div class=\"col-8 panel shadow\">\n          \n          <span class=\"title\">\n            <i class=\"fa fa-ticket\" aria-hidden=\"true\"></i> ENCERRAMENTO TICKET\n          </span>\n          \n          <span class=\"row header-encerramento\">\n            <span class=\"col\">\n              <span class=\"title\">\n                Protocolo:\n              </span>\n              <span class=\"protocolo\">\n                  {{protocolo}}\n              </span>\n            </span>\n            <span class=\"col\">\n              <span class=\"title\">\n                Motivo Contato\n              </span>\n              <select class=\"form-control form-control-sm\" >\n                  <option>Dúvida</option>\n                  <option>Informação</option>\n                  <option>Reclamação</option>\n                </select>\n            </span>\n            <span class=\"col\">\n              <span class=\"title\">\n                Prioridade\n              </span>\n              <select class=\"form-control form-control-sm\" >\n                  <option>1</option>\n                  <option>2</option>\n                  <option>3</option>\n                </select>\n            </span>\n          </span>\n\n          <span class=\"row\">\n            <textarea class=\"text-encerramento\" name=\"\" id=\"\" cols=\"30\" rows=\"10\" placeholder=\"Digite seu texto aqui\"></textarea>\n          </span>\n          <span class=\"row btn-ecerramento-group\">\n              <button type=\"button\" class=\"btn btn-primary btn-sm btn-ecerramento\">Visita</button>\n              <button type=\"button\" class=\"btn btn-info btn-sm btn-ecerramento\">Retorno</button>\n              <button type=\"button\" class=\"btn btn-warning btn-sm btn-ecerramento\">Limpar</button>\n              <button type=\"button\" class=\"btn btn-success btn-sm btn-ecerramento-gravar\">Gravar</button>\n          </span>\n\n        </div>\n        <div class=\"col-4 panel shadow\">\n          <span class=\"title\">\n            <i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i> SCRIPT\n          </span>\n          <textarea class=\"text-script\" name=\"\" id=\"\" cols=\"30\" rows=\"10\">Sr(a), anote o número do protocolo.A Suzano esta a sua disposição. Mas alguma informação?Nós agradescmos pelo contato tenha um bom dia!\n          </textarea>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"page-wrapper\" >\n  <div class=\"container-fluid\">\n    <div class=\"sidebar panel\">\n      \n      <span class=\"title\">\n        <i class=\"fa fa-check-square\" aria-hidden=\"true\"></i> PESQUISA\n      </span>\n      \n      <comp-pesquisa></comp-pesquisa>\n    </div>\n    <div class=\"main-content\">\n      <div class=\"row row-30\">\n        <div class=\"col-8 panel shadow\">\n          <span class=\"title\">\n            <i class=\"fa fa-check-square\" aria-hidden=\"true\"></i> OFERTAS ATIVAS\n          </span>\n          <div id=\"carouselExampleControls\" class=\"carousel slide\" data-ride=\"carousel\">\n            <div class=\"carousel-inner\">\n              <div class=\"carousel-item active\">\n                <img class=\"d-block w-100\" src=\"http://www.jedicrm.com.br/v360/assets/banner1.jpg\" alt=\"First slide\">\n              </div>\n              <div class=\"carousel-item\">\n                <img class=\"d-block w-100\" src=\"http://www.jedicrm.com.br/v360/assets/banner2.jpg\" alt=\"First slide\">\n              </div>\n              <div class=\"carousel-item\">\n                <img class=\"d-block w-100\" src=\"http://www.jedicrm.com.br/v360/assets/banner3.jpg\" alt=\"First slide\">\n              </div>\n            </div>\n            <a class=\"carousel-control-prev\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"prev\">\n              <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Previous</span>\n            </a>\n            <a class=\"carousel-control-next\" href=\"#carouselExampleControls\" role=\"button\" data-slide=\"next\">\n              <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n              <span class=\"sr-only\">Next</span>\n            </a>\n          </div>\n        </div>\n        \n        <div class=\"col-4 panel shadow \">\n          <span class=\"title\">\n            <i class=\"fa fa-bullhorn\" aria-hidden=\"true\"></i> RECOMENDAÇÃO\n          </span>\n          \n          <grafico-recomendacao [dados]=\"clients.selected.graficoRecomendacao\"></grafico-recomendacao>\n          \n          \n        </div>\n        \n        \n      </div>\n      <div class=\"row row-35\">\n        <div class=\"col panel shadow\">\n          <span class=\"title\">\n            <i class=\"fa fa-th-large\" aria-hidden=\"true\"></i> DEMAND SHAPING\n          </span>\n\n          <comp-materiais></comp-materiais>\n        </div>\n      </div>\n      <div class=\"row row-30\">\n        <div class=\"col-8 panel shadow\">\n          \n          <span class=\"title\">\n            <i class=\"fa fa-ticket\" aria-hidden=\"true\"></i> ENCERRAMENTO TICKET\n          </span>\n          \n          <span class=\"row header-encerramento\">\n            <span class=\"col\">\n              <span class=\"title\">\n                Protocolo:\n              </span>\n              <span class=\"protocolo\">\n                  {{protocolo}}\n              </span>\n            </span>\n            <span class=\"col\">\n              <span class=\"title\">\n                Motivo Contato\n              </span>\n              <select class=\"form-control form-control-sm\" >\n                  <option>Dúvida</option>\n                  <option>Informação</option>\n                  <option>Reclamação</option>\n                </select>\n            </span>\n            <span class=\"col\">\n              <span class=\"title\">\n                Prioridade\n              </span>\n              <select class=\"form-control form-control-sm\" >\n                  <option>1</option>\n                  <option>2</option>\n                  <option>3</option>\n                </select>\n            </span>\n          </span>\n\n          <span class=\"row\">\n            <textarea class=\"text-encerramento\" name=\"\" id=\"\" cols=\"30\" rows=\"10\" placeholder=\"Digite seu texto aqui\"></textarea>\n          </span>\n          <span class=\"row btn-ecerramento-group\">\n              <button type=\"button\" class=\"btn btn-primary btn-sm btn-ecerramento\">Visita</button>\n              <button type=\"button\" class=\"btn btn-info btn-sm btn-ecerramento\">Retorno</button>\n              <button type=\"button\" class=\"btn btn-warning btn-sm btn-ecerramento\">Limpar</button>\n              <button type=\"button\" class=\"btn btn-success btn-sm btn-ecerramento-gravar\">Gravar</button>\n          </span>\n\n        </div>\n        <div class=\"col-4 panel shadow\">\n          <span class=\"title\">\n            <i class=\"fa fa-file-text-o\" aria-hidden=\"true\"></i> SCRIPT\n          </span>\n          <textarea class=\"text-script\" name=\"\" id=\"\" cols=\"30\" rows=\"10\">Sr(a), anote o número do protocolo. Friboi esta a sua disposição. Mas alguma informação?Nós agradecemos pelo contato tenha um bom dia/boa tarde/boa noite!\n          </textarea>\n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1512,7 +1508,7 @@ module.exports = "<div class=\"page-wrapper\" >\n  <div class=\"container-fluid\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".page-wrapper {\n  height: calc(100% - 45px);\n  margin: 0px;\n  /* background: #fff; */ }\n\n.page-wrapper .row {\n  padding-bottom: 5px; }\n\n.sidebar {\n  padding: 0 15px;\n  min-height: calc(100% - 54px);\n  position: fixed;\n  right: 0px;\n  background: #fff;\n  width: 20%;\n  border: 1px solid #ddd; }\n\n.main-content {\n  padding: 0 15px 0 10px;\n  position: fixed;\n  left: calc(25% + 5px);\n  height: calc(100% - 5px);\n  width: calc(55% - 10px); }\n\n.row {\n  padding-bottom: 5px; }\n\n.row-30 {\n  height: 29%; }\n\n.row-40 {\n  height: calc(39% + 5px); }\n\n.row-35 {\n  height: calc(35% + 5px); }\n\n.row-50 {\n  height: calc(50% + 2.5px); }\n\n.panel {\n  background: #fff;\n  margin-left: 5px; }\n\n.panel.col-6 {\n  flex: 0 0 calc(50% - 5px);\n  max-width: calc(50% - 5px); }\n\n.panel.col-3 {\n  flex: 0 0 calc(50% - 5px);\n  max-width: calc(25% - 5px); }\n\n.panel.col-8 {\n  flex: 0 0 calc(66.666667% - 5px);\n  max-width: calc(66.666667%); }\n\n.panel.col-4 {\n  flex: 0 0 calc(33.333333% - 5px);\n  max-width: calc(33.333333% - 5px); }\n\n.panel .title {\n  color: #0275d8;\n  padding: 10px 0px;\n  display: block;\n  font-weight: 600; }\n\n.panel .title i {\n  font-size: 1.6em;\n  opacity: .4;\n  margin-right: 0px; }\n\n.panel .table td,\n.panel .table th {\n  color: rgba(0, 0, 0, 0.5);\n  font-size: .8em; }\n\n@media (max-width: 576px) {\n  .sidebar {\n    position: static; } }\n\n.tabs {\n  display: flex;\n  height: calc(5% - 5px);\n  justify-content: space-between; }\n\n.tabs .tab {\n  background: #F4DD51;\n  padding: 1px 30px;\n  font-size: 1.2em;\n  position: relative;\n  margin-right: 30px;\n  font-weight: 600;\n  color: rgba(0, 0, 0, 0.6); }\n\n.tabs .tab:first-child {\n  margin-left: 10px; }\n\n.tabs .tab:before {\n  content: \"\";\n  position: absolute;\n  border-bottom: 2.2vh solid transparent;\n  border-left: 20px solid #f1e028;\n  border-top: 2.2vh solid transparent;\n  height: 0px;\n  width: 0px;\n  right: -20px;\n  top: 0; }\n\n.btn-sm {\n  padding: .05rem .5rem;\n  font-size: .8rem; }\n\n.table .badge-pill {\n  font-size: .9em; }\n\n.panel .table td.warning {\n  color: orange; }\n\n.panel .table td.primary {\n  color: blue; }\n\n.panel .table td.success {\n  color: green; }\n\n.panel .table .btn-primary {\n  background: #9CC4E4;\n  border: none; }\n\n.carousel-item {\n  background: #ccc;\n  height: 16vh; }\n\n.text-script {\n  margin: 0;\n  width: 100%;\n  max-height: 20vh;\n  padding: 5px;\n  border: 1px solid #96c1f1;\n  color: #3171e0;\n  font-size: .9em; }\n\n.text-encerramento {\n  max-height: 8vh;\n  border: 1px solid #96c1f1;\n  color: #3171e0;\n  font-size: .9em;\n  padding: 5px;\n  width: 100%;\n  margin: 0 10px; }\n\n.header-encerramento .title {\n  font-size: .9em;\n  padding: 0px; }\n\n.header-encerramento .protocolo {\n  border: 1px solid #dadada;\n  padding: 1px 30px;\n  border-radius: 3px;\n  margin-top: 1px;\n  display: block; }\n\n.btn-ecerramento-group {\n  margin: 0 -5px; }\n\n.btn-ecerramento {\n  margin: 0 2px;\n  padding: 4px 33px;\n  background: #5e9de9;\n  border: none; }\n\n.btn-ecerramento-gravar {\n  margin: 0 2px;\n  padding: 4px 53px;\n  background: #3171e0;\n  border: none; }\n"
+module.exports = ".page-wrapper {\n  height: calc(100% - 45px);\n  margin: 0px;\n  /* background: #fff; */ }\n\n.page-wrapper .row {\n  padding-bottom: 5px; }\n\n.sidebar {\n  padding: 0 15px;\n  min-height: calc(100% - 54px);\n  position: fixed;\n  top: 0px;\n  right: 0px;\n  background: #fff;\n  width: 20%;\n  border: 1px solid #ddd; }\n\n.main-content {\n  padding: 0 15px 0 10px;\n  position: fixed;\n  left: calc(25% + 5px);\n  height: calc(100% - 5px);\n  width: calc(55% - 10px); }\n\n.row {\n  padding-bottom: 5px; }\n\n.row-30 {\n  height: 29%; }\n\n.row-40 {\n  height: calc(39% + 5px); }\n\n.row-35 {\n  height: calc(35% + 5px); }\n\n.row-50 {\n  height: calc(50% + 2.5px); }\n\n.panel {\n  background: #fff;\n  margin-left: 5px; }\n\n.panel.col-6 {\n  flex: 0 0 calc(50% - 5px);\n  max-width: calc(50% - 5px); }\n\n.panel.col-3 {\n  flex: 0 0 calc(50% - 5px);\n  max-width: calc(25% - 5px); }\n\n.panel.col-8 {\n  flex: 0 0 calc(66.666667% - 5px);\n  max-width: calc(66.666667%); }\n\n.panel.col-4 {\n  flex: 0 0 calc(33.333333% - 5px);\n  max-width: calc(33.333333% - 5px); }\n\n.panel .title {\n  color: #0275d8;\n  padding: 10px 0px;\n  display: block;\n  font-weight: 600; }\n\n.panel .title i {\n  font-size: 1.6em;\n  opacity: .4;\n  margin-right: 10px; }\n\n.panel .table td,\n.panel .table th {\n  color: rgba(0, 0, 0, 0.5);\n  font-size: .8em; }\n\n@media (max-width: 576px) {\n  .sidebar {\n    position: static; } }\n\n.tabs {\n  display: flex;\n  height: calc(5% - 5px);\n  justify-content: space-between; }\n\n.tabs .tab {\n  background: #F4DD51;\n  padding: 1px 30px;\n  font-size: 1.2em;\n  position: relative;\n  margin-right: 30px;\n  font-weight: 600;\n  color: rgba(0, 0, 0, 0.6); }\n\n.tabs .tab:first-child {\n  margin-left: 10px; }\n\n.tabs .tab:before {\n  content: \"\";\n  position: absolute;\n  border-bottom: 2.2vh solid transparent;\n  border-left: 20px solid #f1e028;\n  border-top: 2.2vh solid transparent;\n  height: 0px;\n  width: 0px;\n  right: -20px;\n  top: 0; }\n\n.btn-sm {\n  padding: .05rem .5rem;\n  font-size: .8rem; }\n\n.table .badge-pill {\n  font-size: .9em; }\n\n.panel .table td.warning {\n  color: orange; }\n\n.panel .table td.primary {\n  color: blue; }\n\n.panel .table td.success {\n  color: green; }\n\n.panel .table .btn-primary {\n  background: #9CC4E4;\n  border: none; }\n\n.carousel-item {\n  background: #ccc;\n  height: 16vh; }\n\n.text-script {\n  margin: 0;\n  width: 100%;\n  max-height: 20vh;\n  padding: 5px;\n  border: 1px solid #96c1f1;\n  color: #3171e0;\n  font-size: .9em; }\n\n.text-encerramento {\n  max-height: 8vh;\n  border: 1px solid #96c1f1;\n  color: #3171e0;\n  font-size: .9em;\n  padding: 5px;\n  width: 100%;\n  margin: 0 10px; }\n\n.header-encerramento .title {\n  font-size: .9em;\n  padding: 0px; }\n\n.header-encerramento .protocolo {\n  border: 1px solid #dadada;\n  padding: 1px 30px;\n  border-radius: 3px;\n  margin-top: 1px;\n  display: block; }\n\n.btn-ecerramento-group {\n  margin: 0 -5px; }\n\n.btn-ecerramento {\n  margin: 0 2px;\n  padding: 4px 33px;\n  background: #5e9de9;\n  border: none; }\n\n.btn-ecerramento-gravar {\n  margin: 0 2px;\n  padding: 4px 53px;\n  background: #3171e0;\n  border: none; }\n"
 
 /***/ }),
 
@@ -1664,7 +1660,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ABERTO",
                 tipo: "ZVIN",
                 valor: "R$55.400,00",
-                data: "12/13/2017",
+                data: "25/04/2019",
                 canal: "COMMERCE"
             },
             {
@@ -1672,7 +1668,7 @@ var ClientsService = /** @class */ (function () {
                 status: "FATURADO",
                 tipo: "ZVOR",
                 valor: "R$3.200,00 ",
-                data: "12/13/2017",
+                data: "01/03/2019",
                 canal: "TELEVENDAS"
             },
             {
@@ -1680,7 +1676,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ENTREGUE",
                 tipo: "ZVOR",
                 valor: "R$12.200,00",
-                data: "12/13/2017",
+                data: "26/02/2019",
                 canal: "TELEVENDAS"
             }
         ];
@@ -1690,7 +1686,7 @@ var ClientsService = /** @class */ (function () {
                 status: "FATURADO",
                 tipo: "ZVIN",
                 valor: "R$4.400,00",
-                data: "12/13/2017",
+                data: "14/10/2018",
                 canal: "COMMERCE"
             },
             {
@@ -1698,7 +1694,7 @@ var ClientsService = /** @class */ (function () {
                 status: "FATURADO",
                 tipo: "ZVOR",
                 valor: "R$2.600,00",
-                data: "12/13/2017",
+                data: "15/10/2018",
                 canal: "COMMERCE"
             },
             {
@@ -1706,7 +1702,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ENTREGUE",
                 tipo: "ZVOR",
                 valor: "R$3.400,00",
-                data: "12/13/2017",
+                data: "01/10/2018",
                 canal: "TELEVENDAS"
             }
         ];
@@ -1716,7 +1712,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ENCERRADO",
                 tipo: "RECLAMAÇÃO",
                 motivo: "NÃO ENTREGUE	",
-                data: "7/12/2017",
+                data: "22/04/2019",
                 canal: "SOCIAL"
             },
             {
@@ -1724,7 +1720,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ABERTO",
                 tipo: "RECLAMAÇÃO",
                 motivo: "QUALIDADE",
-                data: "28/10/2017",
+                data: "21/04/2019",
                 canal: "CHAT"
             },
             {
@@ -1732,7 +1728,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ENCERRADO",
                 tipo: "SUGESTÃO",
                 motivo: "TRANSPORTADORA",
-                data: "15/9/2017",
+                data: "15/01/2019",
                 canal: "URA"
             },
             {
@@ -1740,7 +1736,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ENCERRADO",
                 tipo: "RECLAMAÇÃO",
                 motivo: "TRANSPORTADORA",
-                data: "10/12/2017",
+                data: "10/09/2018",
                 canal: "CHAT"
             }
         ];
@@ -1750,7 +1746,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ABERTO",
                 tipo: "RECLAMAÇÃO",
                 motivo: "NÃO ENTREGUE	",
-                data: "7/9/2017",
+                data: "07/10/2018",
                 canal: "SOCIAL"
             },
             {
@@ -1758,7 +1754,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ABERTO",
                 tipo: "RECLAMAÇÃO",
                 motivo: "QUALIDADE",
-                data: "28/10/2017",
+                data: "01/10/2018",
                 canal: "CHAT"
             },
             {
@@ -1766,7 +1762,7 @@ var ClientsService = /** @class */ (function () {
                 status: "ABERTO",
                 tipo: "SUGESTÃO",
                 motivo: "TRANSPORTADORA",
-                data: "15/10/2017",
+                data: "25/08/2018",
                 canal: "CHAT"
             },
             {
@@ -1783,19 +1779,19 @@ var ClientsService = /** @class */ (function () {
                 interacao: "3242",
                 canal: "COMMERCE",
                 assunto: "Não consigo entrar em contato pelo telefone…",
-                data: "7/12/2017"
+                data: "10/03/2019"
             },
             {
                 interacao: "2323",
                 canal: "TELEVENDAS",
                 assunto: "Cliente quer receber visita de um vendedor…",
-                data: "28/10/2017"
+                data: "07/02/2019"
             },
             {
                 interacao: "12312",
                 canal: "CHAT",
                 assunto: "Solicitação mais Informações sobre produto…",
-                data: "15/9/2017"
+                data: "15/01/2019"
             }
         ];
         var interacoes2 = [
@@ -1803,34 +1799,34 @@ var ClientsService = /** @class */ (function () {
                 interacao: "5444",
                 canal: "CHAT",
                 assunto: "Cliente quer receber visita de um vendedor…",
-                data: "3/12/2017"
+                data: "03/10/2018"
             },
             {
                 interacao: "5300",
                 canal: "TELEVENDAS",
                 assunto: "Problemas com entrega…",
-                data: "4/12/2017"
+                data: "01/10/2018"
             },
             {
                 interacao: "5412",
                 canal: "CHAT",
                 assunto: "Informações sobre produto…",
-                data: "9/12/2017"
+                data: "09/09/2018"
             }
         ];
         var partidas1 = [
             {
                 doc: "345345",
                 tipo: "KR",
-                vencimento: "5/01/2018",
+                vencimento: "11/03/2019",
                 meio: "BOLETO",
-                valor: "R$ 20.000,00",
-                status: ""
+                valor: "R$ 5.000,00",
+                status: "EM ABERTO"
             },
             {
                 doc: "654645",
                 tipo: "KR",
-                vencimento: "10/11/2017",
+                vencimento: "10/02/2019",
                 meio: "CREDITO",
                 valor: "R$ 7.000,00",
                 status: "EM ATRASO"
@@ -1838,7 +1834,7 @@ var ClientsService = /** @class */ (function () {
             {
                 doc: "123423",
                 tipo: "AB",
-                vencimento: "25/10/2017",
+                vencimento: "08/01/2019",
                 meio: "CREDITO",
                 valor: "R$ 3.000,00",
                 status: "EM ATRASO"
@@ -1848,15 +1844,15 @@ var ClientsService = /** @class */ (function () {
             {
                 doc: "878747",
                 tipo: "KR",
-                vencimento: "5/01/2018",
+                vencimento: "05/03/2019",
                 meio: "BOLETO",
                 valor: "R$ 2.500,00",
-                status: ""
+                status: "EM ABERTO"
             },
             {
                 doc: "876524",
                 tipo: "KR",
-                vencimento: "2/11/2017",
+                vencimento: "02/02/2019",
                 meio: "BOLETO",
                 valor: "R$ 3.900,00",
                 status: "EM ATRASO"
@@ -1864,20 +1860,20 @@ var ClientsService = /** @class */ (function () {
             {
                 doc: "874411",
                 tipo: "AB",
-                vencimento: "8/10/2017",
+                vencimento: "22/01/2019",
                 meio: "BOLETO",
                 valor: "R$ 9.458,50",
                 status: "EM ATRASO"
             }
         ];
         var cliente1 = new _models_client__WEBPACK_IMPORTED_MODULE_1__["Client"]();
-        cliente1.id = "1005632";
-        cliente1.name = "Natanael";
-        cliente1.razao = "Natanael Pantoja";
+        cliente1.id = "1010269";
+        cliente1.name = "Hospital B";
+        cliente1.razao = "Hospital B";
         cliente1.cnpj = "45.645.193/001-98";
-        cliente1.fone = "11 98888-5555";
-        cliente1.email = "PH@OPENFLOW.COM.BR";
-        cliente1.logradouro = "Av Paulista, 2001 - Sl 550";
+        cliente1.fone = "+55 1133422311";
+        cliente1.email = "willi.santana@partners.srv.br";
+        cliente1.logradouro = "R. Itapaiúna, 231 São Paulo - SP 05707-000 - Brasil";
         cliente1.info = {
             pedidos: "3",
             pedidosValor: "80k",
@@ -1888,26 +1884,26 @@ var ClientsService = /** @class */ (function () {
             riscoCredito: "médio",
             mercantil: "56k",
             facilidades: "20k",
-            ticketsAbertos: "3",
+            ticketsAbertos: "1",
             ligacoes: "30",
             ligacoesCliente: "5"
         };
         cliente1.graficoCanal = [300, 50, 100, 75];
         cliente1.graficoComparativo = [[5000, 6000, 1200, 8000, 3000, 4000, 2000], [3000, 4000, 9000, 7000, 6000, 3000, 9000]];
-        cliente1.graficoFaturamento = [100, 10];
-        cliente1.graficoRecomendacao = [100, 10, 50];
+        cliente1.graficoFaturamento = [100, 75];
+        cliente1.graficoRecomendacao = [50, 40, 15];
         cliente1.pedidos = pedidos1;
         cliente1.tickets = tickets1;
         cliente1.interacoes = interacoes1;
         cliente1.partidas = partidas1;
         var cliente2 = new _models_client__WEBPACK_IMPORTED_MODULE_1__["Client"]();
-        cliente2.id = "1005629";
-        cliente2.name = "Victor";
-        cliente2.razao = "Victor Serra";
-        cliente2.cnpj = "45.888.999/001-98";
-        cliente2.fone = "11 3544-7788";
-        cliente2.email = "victor.serra@partners.srv.br";
-        cliente2.logradouro = "Av Faria lima, 550 - Sl 5";
+        cliente1.id = "1010370";
+        cliente1.name = "Carniceria Pronto";
+        cliente1.razao = "Carniceria Pronto";
+        cliente1.cnpj = "45.645.193/001-98";
+        cliente1.fone = "+55 11985582996";
+        cliente1.email = "willi.santana@partners.srv.br";
+        cliente1.logradouro = "Avenida SAP, 188 Sao Leopoldo - RS 93022-718 - Brasil";
         cliente2.info = {
             pedidos: "12",
             pedidosValor: "190k",
@@ -1918,7 +1914,7 @@ var ClientsService = /** @class */ (function () {
             riscoCredito: "baixo",
             mercantil: "96k",
             facilidades: "indisponível",
-            ticketsAbertos: "1",
+            ticketsAbertos: "3",
             ligacoes: "22",
             ligacoesCliente: "15"
         };
@@ -2008,7 +2004,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\angular\suzano-tele\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! E:\angular\tele-2\src\main.ts */"./src/main.ts");
 
 
 /***/ })
