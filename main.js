@@ -868,7 +868,7 @@ var PesquisaComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ul class=\"wizard\">\n  <li (click)=\"selectAba(0)\" [class.selected]=\"clients.aba == 0\">VISÃO 360º</li>\n  <li (click)=\"selectAba(1)\" [class.selected]=\"clients.aba == 1\">CAMPANHAS E PESQUISAS</li>\n  <li><a href=\"https://citio.gdm-luna.usdemo.hybris.com/yacceleratorstorefront/?asm=true\" target=\"_blank\">VENDA ASSISTIDA</a></li>\n</ul>\n"
+module.exports = "<ul class=\"wizard\">\n  <li (click)=\"selectAba(0)\" [class.selected]=\"clients.aba == 0\">VISÃO 360º</li>\n  <li (click)=\"selectAba(1)\" [class.selected]=\"clients.aba == 1\">CAMPANHAS E PESQUISAS</li>\n  <li><a href=\"https://powertools.gdm-hcm-02.usdemo.hybris.com/yb2bacceleratorstorefront/powertools/en/USD/?site=powertools&asm=true&asm=true\" target=\"_blank\">VENDA ASSISTIDA</a></li>\n</ul>\n"
 
 /***/ }),
 
